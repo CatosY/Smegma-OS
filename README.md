@@ -2,34 +2,12 @@
 
 # FemboyOS
 
-Femboy GNU/Linux distribution, based on [Linux From Scratch](https://linuxfromscratch.org/).
+FemboyOS is a GNU/Linux distribution, based on [Linux From Scratch](https://linuxfromscratch.org/), with some modifications.
 
-## Dependencies
+> [!WARNING]
+> FemboyOS is very much in development, and shouldn't be used as a daily driver. Expect errors and kernel panics. You have been warned.
 
-python3\
-GCC\
-G++\
-bash\
-/bin/sh pointing to bash\
-binutils\
-YACC\
-coreutils\
-gawk / awk\
-findutils\
-diffutils\
-grep\
-m4\
-make\
-patch\
-sed\
-tar\
-texinfo\
-xz
+## Package managment
 
-## Build
+FemboyOS will use a custom package manager, [Fempkg](https://github.com/Sugaryyyy/Fempkg), a custom made source based package manager.
 
-To read on how to build FemboyOS, check the [`BUILDING.md`](BUILDING.md) file
-
-## Package manager
-
-FemboyOS uses [scratchpkg](https://github.com/venomlinux/scratchpkg), the package manager from Venom Linux.
